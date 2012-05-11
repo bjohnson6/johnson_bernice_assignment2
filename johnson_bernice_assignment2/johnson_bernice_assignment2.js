@@ -78,18 +78,44 @@ var GetReady = function (name, clothes) {
   //String Funtion
   
    var breakfast = function(food, drink){
-        var e = "Emma";
-        var m = "mookie";
+        var prepare = (" I am going to warm up the pan and pour the" +food + "batter");
+        var smell = ("they smell so good, I think they are ready now");
+        var serve = ("Time to eat your breakfast Emma and have your " + drink.");
+        var serve2 = ("Now its time to feed Mookie his dog food." );
+        var everything = (prepare + smell + serve + serve2);
+         
+         console.log (everything);
+     };
+          breakfast(pancakes, orange juice);
+          food = everything;
+          return everything;
+          
 
-   }
-  //String Function / string/string 
+          
+        };  
+      
+   //String Function / string/string 
    //Local variables 
   // String Concatenation
-  // return string 
+  // return string     
+       
 
-  //Array Function
 
-  Array Function / Number / Array
+
+   
+  
+
+  //Array Function //NEED HELP ON THIS! THIS PART IS ABOUT GETTING OUR STUFF READY TO LEAVE THE HOUSE FOR SCHOOL..LIKE BOOKBAG, COATS, SHOES ON, PURSE, KEYS.
+
+  var GetReadyToLeave = function(10, items) {
+  	  console.log("It's time to check and make sure we have everything ready before we leave the house.);
+  	   var 
+
+
+
+  }
+
+  Array Function / number/array
    local variables 
    For loop = true = math = output
    For loop = false = return array
