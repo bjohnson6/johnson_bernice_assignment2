@@ -7,7 +7,7 @@
 
   //Initial Variables
 
-  var      wakeUP  = "swipe off the alarm",
+  var        wakeUp  = "swipe off the alarm",
   var       getUp  =  8,
   var    daughter  = "Emma",
   var        late  = "stay in bed",
@@ -20,27 +20,27 @@
   var alarmClock = function (wakeUp) {
      console.log ("What is that sound I hear telling me to wake up?");
  };     var alarmSays = 8 < 9 
-    
-
+        var daughter = "Emma";
+      alarmClock("swipe off the snooze button");
       if (alarmSays === true) {
-      	var daughter = "Emma";
+      	
       	 console.log(" It's 8 am, I need to " + wakeUp +" and get out of bed and wake up " + daughter + ".");
                alarmClock("swipe off the snooze button")
        }else{
        	var late ="stay in bed"
             console.log(WakeUp + late + "and be late for school.");
     };
-            alarmClock("swipe off the snooze button")
+            alarmClock("swipe off the snooze button");
 
   
-  
-
-
-
-
   //Procedure /argument
    //argument conditional  = true  = output then back
    //argument conditional  = false = output then back
+
+  
+
+
+
 
 
 
@@ -86,13 +86,13 @@ var GetReady = function (name, clothes) {
          
          console.log (everything);
      };
-          breakfast(pancakes, orange juice);
+          breakfast("pancakes", "orange juice");
           food = everything;
           return everything;
           
 
           
-        };  
+     }   
       
    //String Function / string/string 
    //Local variables 
@@ -105,17 +105,35 @@ var GetReady = function (name, clothes) {
    
   
 
-  //Array Function //NEED HELP ON THIS! THIS PART IS ABOUT GETTING OUR STUFF READY TO LEAVE THE HOUSE FOR SCHOOL..LIKE BOOKBAG, COATS, SHOES ON, PURSE, KEYS.
+  //Array Function 
 
-  var GetReadyToLeave = function(10, items) {
-  	  console.log("It's time to check and make sure we have everything ready before we leave the house.);
-  	   var 
+  
+  	  console.log ("Its time to check and make sure we have everything ready before we leave the house.");
+  	
+	  
 
+      var getReadyToLeave= function( minutesToGo stuffWeNeed) {
+             
+        var stuffWeNeed = ["purse", "keys", "bookBag", "shoes"],
+	    var minutesToGo = [10, 15, 25, 30],
+           timeLeft = minutesToGo[0];
+          console.log( "We need to get ready to go to school now. + Lets check and make sure we have your +stuffWeNeed[2] + and my +stuffWeNeed[0})+" We have" + minutesToGo[0]" left.
 
+          console.log("We are ready to get in the car now.");
+      };
 
-  }
+      for (var stuffWeNeed = 3; stuffWeNeed< minutesToGo.length; stuffWeNeed++) {
+           getReadyToLeave( 10, "bookBag")
+          return stuffWeNeed;
+      };
+  
 
-  Array Function / number/array
+      
+  
+
+  
+
+  //Array Function / number/array
    local variables 
    For loop = true = math = output
    For loop = false = return array
